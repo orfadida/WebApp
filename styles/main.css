@@ -13,6 +13,8 @@ body {
 header {
     background: #000;
     margin: 0px;
+    position: relative;
+    height: 40px;
 }
 .notifications {
     width: 95%;
@@ -22,4 +24,25 @@ header {
     position: relative;
     top: 10px;
 
+}
+.netcraft-logo {
+    margin-left: 200px;
+    margin-top: 4px;
+}
+.search-box {
+    position: absolute;
+    right: 200px;
+    top: 8px;
+}
+.select-content{
+    width: 95%;
+    text-align: center;
+}
+.nav-section {
+    display: inline-block;
+    background: #000;
+    width: 400px;
+    height: 162px;
+    color: #FFFFFF;
+    margin: 35px 10px 10px 10px;
 }
