@@ -45,4 +45,25 @@ header {
     height: 162px;
     color: #FFFFFF;
     margin: 35px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.menu-hint {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    top: 102px;
+    background: #fff;
+}
+.action-list {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 400px;
+    /**box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);**/
+    padding: 12px 16px;
+    z-index: 1;
+}
+.nav-section:hover .action-list {
+    display: block;
 }
