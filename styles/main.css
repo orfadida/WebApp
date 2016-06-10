@@ -120,6 +120,7 @@ ul > li {
 }
 .tabs > ul {
     padding: 0;
+    margin-bottom: 0;
 }
 .tabs > ul > li {
     display: inline-block;
@@ -130,6 +131,18 @@ ul > li {
     background: #757978;
     margin-right: 30px;
 }
+.tabs > ul > li:hover {
+    display: inline-block;
+    width: 260px;
+    height: 50px;
+    text-align: center;
+    line-height: 3;
+    background: #e2e1e1;
+    margin-right: 30px;
+}
+.tabs > ul > li:nth-last-child(1) {
+    margin-right: 0;
+}
 .tabs > ul > li:nth-last-child(1) {
     margin-right: 0;
 }
@@ -137,6 +150,13 @@ ul > li {
     text-decoration: none;
     color: #fff;
 }
-.tabs > ul > li:nth-last-child(1) {
-    margin-right: 0;
+.tabs > ul > li:hover a{
+    text-decoration: none;
+    color: #000;
+}
+.tab-box {
+    max-width: 1146px;
+    height: 725px;
+    background: #e2e1e1;
+    margin: 0 auto;
 }
