@@ -80,7 +80,7 @@ header {
 .action-list {
     display: none;
     position: absolute;
-    background-color: #e2e1e1;
+    background-color: #ebebeb;
     min-width: 368px;
     /**box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);**/
     padding: 12px 16px;
@@ -93,4 +93,18 @@ header {
 }
 .image {
     margin-top: -24px;
+}
+ul > li {
+    text-align: left;
+}
+.action-list > li > a {
+    width: 20px;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+
+}
+.action-list > li {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #d8d8d8;
 }
