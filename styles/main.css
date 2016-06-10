@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
 }
 .page-body {
-    background: #757978;
+    background: rgba(54, 25, 25, .2);;
     width: 80%;
     height: auto;
     margin: 0 auto;
@@ -20,7 +20,7 @@ header {
 .notifications {
     width: 95%;
     height: 35px;
-    background: #e2e1e1;
+    background: #fff;
     margin: 0 auto;
     position: relative;
     top: 10px;
@@ -107,4 +107,36 @@ ul > li {
 .action-list > li {
     margin-bottom: 5px;
     border-bottom: 1px solid #d8d8d8;
+}
+.action-list > ul:last-child {
+    border-bottom: 0px;
+}
+.tabs {
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 81%;
+    text-align: center;
+}
+.tabs > ul {
+    padding: 0;
+}
+.tabs > ul > li {
+    display: inline-block;
+    width: 260px;
+    height: 50px;
+    text-align: center;
+    line-height: 3;
+    background: #757978;
+    margin-right: 30px;
+}
+.tabs > ul > li:nth-last-child(1) {
+    margin-right: 0;
+}
+.tabs > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+.tabs > ul > li:nth-last-child(1) {
+    margin-right: 0;
 }
