@@ -111,18 +111,52 @@ ul > li {
 .action-list > ul:last-child {
     border-bottom: 0px;
 }
-.tabs {
-    /*border: 1px solid black;*/
-    margin: 0 auto;
+/*.tabs {*/
+    /*/!*border: 1px solid black;*!/*/
+    /*margin: 0 auto;*/
+    /*margin-top: 50px;*/
+    /*max-width: 81%;*/
+    /*text-align: center;*/
+/*}*/
+/*.tabs > ul {*/
+    /*padding: 0;*/
+    /*margin-bottom: 0;*/
+/*}*/
+/*.tabs > ul > li {*/
+    /*display: inline-block;*/
+    /*width: 260px;*/
+    /*height: 50px;*/
+    /*text-align: center;*/
+    /*line-height: 3;*/
+    /*background: #757978;*/
+    /*margin-right: 30px;*/
+/*}*/
+/*.tabs > ul > li:hover {*/
+    /*display: inline-block;*/
+    /*width: 260px;*/
+    /*height: 50px;*/
+    /*text-align: center;*/
+    /*line-height: 3;*/
+    /*background: #e2e1e1;*/
+    /*margin-right: 30px;*/
+/*}*/
+/*.tabs > ul > li > a {*/
+    /*text-decoration: none;*/
+    /*color: #fff;*/
+/*}*/
+/*.tabs > ul > li:hover a{*/
+    /*text-decoration: none;*/
+    /*color: #000;*/
+/*}*/
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     margin-top: 50px;
-    max-width: 81%;
     text-align: center;
 }
-.tabs > ul {
-    padding: 0;
-    margin-bottom: 0;
-}
-.tabs > ul > li {
+ul.tab li {
     display: inline-block;
     width: 260px;
     height: 50px;
@@ -131,32 +165,37 @@ ul > li {
     background: #757978;
     margin-right: 30px;
 }
-.tabs > ul > li:hover {
+.tab  > a:nth-last-child(1) {
+    margin-right: 0;
+}
+.tab  > li:nth-last-child(1) {
+    margin-right: 0;
+}
+ul.tab li a {
     display: inline-block;
-    width: 260px;
-    height: 50px;
+    color: #ffffff;
     text-align: center;
-    line-height: 3;
-    background: #e2e1e1;
-    margin-right: 30px;
-}
-.tabs > ul > li:nth-last-child(1) {
-    margin-right: 0;
-}
-.tabs > ul > li:nth-last-child(1) {
-    margin-right: 0;
-}
-.tabs > ul > li > a {
+    padding: 14px 16px;
     text-decoration: none;
-    color: #fff;
+    transition: 0.3s;
+    font-size: 17px;
+    width: 228px;
+    line-height: 23px;
 }
-.tabs > ul > li:hover a{
-    text-decoration: none;
+ul.tab li a:hover {
+    background-color: #e2e1e1;
+    color: #000;
+}
+
+ul.tab li a:focus, .active {
+    background-color: #e2e1e1;
     color: #000;
 }
 .tab-box {
-    max-width: 1146px;
+    max-width: 1121px;
     height: 725px;
     background: #e2e1e1;
     margin: 0 auto;
+    display: none;
+    padding: 6px 12px;
 }
