@@ -111,43 +111,6 @@ ul > li {
 .action-list > ul:last-child {
     border-bottom: 0px;
 }
-/*.tabs {*/
-    /*/!*border: 1px solid black;*!/*/
-    /*margin: 0 auto;*/
-    /*margin-top: 50px;*/
-    /*max-width: 81%;*/
-    /*text-align: center;*/
-/*}*/
-/*.tabs > ul {*/
-    /*padding: 0;*/
-    /*margin-bottom: 0;*/
-/*}*/
-/*.tabs > ul > li {*/
-    /*display: inline-block;*/
-    /*width: 260px;*/
-    /*height: 50px;*/
-    /*text-align: center;*/
-    /*line-height: 3;*/
-    /*background: #757978;*/
-    /*margin-right: 30px;*/
-/*}*/
-/*.tabs > ul > li:hover {*/
-    /*display: inline-block;*/
-    /*width: 260px;*/
-    /*height: 50px;*/
-    /*text-align: center;*/
-    /*line-height: 3;*/
-    /*background: #e2e1e1;*/
-    /*margin-right: 30px;*/
-/*}*/
-/*.tabs > ul > li > a {*/
-    /*text-decoration: none;*/
-    /*color: #fff;*/
-/*}*/
-/*.tabs > ul > li:hover a{*/
-    /*text-decoration: none;*/
-    /*color: #000;*/
-/*}*/
 ul.tab {
     list-style-type: none;
     margin: 0;
